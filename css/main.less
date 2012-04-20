@@ -1,0 +1,152 @@
+//
+//  Name: sanderdegoeij.com
+//  Date: April 2012
+//  Description: Main styles for my site
+//  Version: 1.0
+//  Author: Sander de Goeij
+//  Author URI: http://sanderdegoeij.com
+
+@import "css/reset.css";
+@import "mixins";
+
+// Global Styles
+html {
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  //background: #F0F0F0;
+  .gradient(#F0F0F0, #EEE, 100);
+  font-size: 87.5%; /* Base font size: 14px */
+  font-family: Helvetica, Georgia, Arial, sans-serif;
+  line-height: 1.429;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+h1 {
+  // 32px / 14 = 2.28em
+  font: 2.28em "Helvetica Neue", Helvetica, Georgia, Arial, sans-serif;
+  color: #555;
+  text-shadow: 0px 1px 1px #ccc;
+} 
+
+a, a:hover, a:visited {
+  color: #000;
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+// Styles
+#hcard-Sander-de-Goeij {
+  width: 44.28em; // 620px / 14 = 44.28em
+  margin: 10.71em auto; // 150px / 14 = 10.71em
+  background: #F6F6F6;
+  border: 1px solid #C1C1C1;
+  height: 30em;
+
+  .box-shadow(0 0 10px 1px #dbdbdb);
+  .rounded(4px);
+
+  header {
+    padding: 1.43em 1.43em 0.71em 1.43em; // 20px / 14 = 1.43em | 10px / 14 = .71em
+    border-bottom: 1px solid #C1C1C1;
+  
+    #title {
+      float: left;
+      
+      h1 {
+        // 38px / 14 = 2.71em
+        font: 2.71em "Helvetica Neue", Helvetica, Georgia, Arial, sans-serif;
+      } 
+
+      p.jobs {
+          color: #888;
+          // 10px / 14 = .71em | 20px / 14 = 1.43em
+          font: .71em/1.43em "Helvetica Neue", Helvetica, Georgia, Arial, sans-serif;
+          text-shadow: #eee 0 1px 0;
+          text-transform: uppercase;
+      }
+    }
+    
+    #social a {
+      display: block;
+      float: right;
+      height: 48px; 
+      width: 48px;
+      text-indent: -9999em;
+
+      &.vcard {
+        background-image: url("/img/icons/vcard.png");
+        margin-left: 10px;
+        
+        #vcard-tooltip {
+          position: relative;
+          top: 1.50em;
+          left: 4.92em; 
+          width: 10.71em;
+          opacity: 0;
+          // 10px / 14 = .71em | 20px / 14 = 1.43em
+          font: .71em/1.43em "Helvetica Neue", Helvetica, Georgia, Arial, sans-serif;
+          display: block;
+          text-indent: 0;
+          border: 1px solid #888;
+          background: #FFF;
+          padding: .214em; // 3px / 14 = .214em
+          .rounded(8px);
+        }
+      }
+      
+      &.twitter {
+        background-image: url("/img/icons/twitter-logo-square.png");  
+      }
+      
+      &.linkedin {
+        background-image: url("/img/icons/linkedin-logo-square2.png");
+      }
+    }
+  }
+  
+  #content {
+    padding: 0.71em; // 10px / 14 = .71em
+    height: 20em; // 30em height - margin-top
+    
+    // TEMP
+    h1.not-completed {
+      text-align: center;
+      margin-top: 3em;
+    }
+  }
+  
+  footer {
+    padding: 0.71em 1.43em 1.43em 1.43em; // 20px / 14 = 1.43em | 10px / 14 = .71em
+    border-top: 1px solid #C1C1C1;
+    
+    p.copyleft {
+      font-size: 0.71em; // 10px / 14 = .71em
+      color: #888;
+      text-align: center;
+    }
+  }
+}
+ 
+  
+@import "devices/phone";
+@import "devices/tablet";
+
+
+
+
+
