@@ -1,71 +1,256 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <title>Sander de Goeij</title>
-  <link rel="stylesheet/less" href="css/main.less" type="text/css" />
-  <script src="/js/less-1.3.0.min.js" type="text/javascript"></script>
-  <!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-</head>
+<html>
+	<head>		
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
+		
+		<link rel="stylesheet" type="text/css" href="css/site.css">
+		<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" media="screen and (max-width: 480px)" href="css/small.css" />
+		<title></title>
+		<!--[if lt IE 9]>
+		<script src="js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<nav>
+			<ul data-content="social">
+				
+			</ul>
+		</nav>
 
-<body id="sanderdegoeij-com">
-  <div id="hcard-Sander-de-Goeij" class="vcard">
-    <header>
-      <section class="clearfix">
-        <div id="title">
-          <h1>
-            <a class="url fn n" href="http://sanderdegoeij.com">  <span class="given-name">Sander</span>
-              <span class="additional-name"></span>
-              <span class="family-name">de Goeij</span>
-            </a>
-          </h1>
-          <p class="jobs">Ruby on Rails Developer | Web Designer</p>
-        </div>
-        <div id="social">
-          <a target="_blank" href="http://h2vx.com/vcf/http://sanderdegoeij.com/" alt="download VCard" class="vcard">
-            <span id="vcard-tooltip">download VCard</span>
-          </a>
-          <a target="_blank" href="http://twitter.com/#!/sdegoeij" class="twitter" alt="Twitter">Twitter</a>
-          <a target="_blank" href="http://nl.linkedin.com/in/sanderdegoeij" class="linkedin" alt="LinkedIn">LinkedIn</a>
-        </div>
-      </section>
-    </header>
-    
-    <nav></nav>
-    
-    <section id="content">
-      <h1 class="not-completed">
-        Not completed yet. Check back soon!
-      </h1>
-    </section>
-      
-    <footer>
-      <p class="copyleft">&copy; 2012 Sander de Goeij</p>
-    </footer>
-  </div>
-    
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
-  <script src="/js/site.js" type="text/javascript"></script>  
-</body>
+		<div id="content">
+			<div class="first" id="viewJson">
+				<span class="right"><a href="resume.json">View as JSON</a></span>
+			</div>
+
+			<section>
+				<h1 data-content="name" class="name"></h1>
+				<h2 data-content="title"></h2>
+				<section id="contact">
+				</section>
+			</section>
+			
+			<section id="objective">
+				<h1>Objective</h1>
+				<p data-content="objective"></p>
+			</section>
+
+			<section id="aboutme">
+				<h1>Executive Summary</h1>
+				<p data-content="aboutme"></p>
+			</section>
+
+			<section id="skills">
+				<h1>Skills / Languages</h1>
+				<ul data-content="skills" class="double">
+				</ul>
+			</section>
+
+			<section id="frameworks">
+				<h1>Languages / Frameworks / Libraries / Data Formats</h1>
+				<ul data-content="frameworks" class="double">
+				
+				</ul>
+			</section>
+
+			<section id="certifications">
+				<h1>Certifications</h1>
+				<ul data-content="certifications">
+				</ul>
+			</section>
+
+			<section id="training">
+				<h1>Training</h1>
+				<ul data-content="training">
+				</ul>
+			</section>
+
+			<section id="projects">
+				<h1>Projects</h1>
+				<ul data-content="projects">
+				</ul>
+			</section>
+
+			<section id="experience">
+				<h1>Experience</h1>
+				<ul data-content="experience">
+				</ul>
+			</section>
+
+			<section id="speaking">
+				<h1>Speaking Engagements</h1>
+				<ul data-content="speaking">
+				</ul>
+			</section>
+
+			<section id="education">
+				<h1>Education</h1>
+				<ul data-content="education">
+				</ul>
+			</section>
+		</div>
+
+		<footer>
+			Last updated on: 03-08-2014
+		</footer>
+
+		<script type="text/template" id="skills-template">
+			<li>
+				${skills}
+			</li>
+		</script>
+
+		<script type="text/template" id="frameworks-template">
+			<li>
+				${frameworks}
+			</li>
+		</script>
+
+		<script type="text/template" id="speaking-template">
+			<li>
+				<section>
+					<ul>
+						<li>
+							<div class="label">Title:</div>
+							<div class="content">${title}</div>
+						</li>
+						<li>
+							<div class="label">location:</div>
+							<div class="content">${location}</div>
+						</li>
+						<li>
+							<div class="label">Link:</div>
+							<div class="content"><a href="${link}" target="_blank">open</a></div>
+						</li>
+					</ul>
+				</section>
+			</li>
+		</script>
+
+		<script type="text/template" id="projects-template">
+			<li>
+				<section>
+					<ul>
+						<li>
+							<div class="label">Name:</div>
+							<div class="content">${name}</div>
+						</li>
+						<li>
+							<div class="label">Technologies:</div>
+							<div class="content">${technologies}</div>
+						</li>
+						<li>
+							<div class="label">Description:</div>
+							<div class="content">${description}</div>
+						</li>
+					</ul>
+				</section>
+			</li>
+		</script>
+
+		<script type="text/template" id="training-template">
+			<li>
+				<section>
+					<ul>
+						<li>
+							<div class="label">Company:</div>
+							<div class="content">${company}</div>
+						</li>
+						<li>
+							<div class="label">Training:</div>
+							<div class="content">${training}</div>
+						</li>
+						<li>
+							<div class="label">Year:</div>
+							<div class="content">${year}</div>
+						</li>
+					</ul>
+				</section>
+			</li>
+		</script>
+
+		<script type="text/template" id="certifications-template">
+			<li>
+				<section>
+					<ul>
+						<li>
+							<div class="label">Company:</div>
+							<div class="content">${company}</div>
+						</li>
+						<li>
+							<div class="label">Certificate:</div>
+							<div class="content">${certificate}</div>
+						</li>
+						<li>
+							<div class="label">Certified:</div>
+							<div class="content">${certDate}</div>
+						</li>
+					</ul>
+				</section>
+			</li>
+		</script>
+
+		<script type="text/template" id="education-template">
+			<li>
+				<section>
+					<ul>
+						<li>
+							<div class="label">School:</div>
+							<div class="content">${school}</div>
+						</li>
+						<li>
+							<div class="label">Program:</div>
+							<div class="content">${program}</div>
+						</li>
+						<li>
+							<div class="label">Dates Attended:</div>
+							<div class="content">${startDate} - ${endDate}</div>
+						</li>
+					</ul>
+				</section>
+			</li>
+		</script>
+
+		<script type="text/template" id="experience-template">
+			<li>
+				<section>
+					<ul>
+                        <li>
+                            <div class="label">Company:</div>
+                            <div class="content">${company}</div>
+                        </li>
+                        <li>
+                            <div class="label">Title:</div>
+                            <div class="content">${title}</div>
+                        </li>
+                        <li>
+                            <div class="label">Tenure:</div>
+                            <div class="content">${startDate} - ${endDate}</div>
+                        </li>
+                        <li>
+							<div class="label">Responsibilities:</div>
+							<div class="content">${responsibilities}</div>
+						</li>
+						<li>					
+							<div class="label">Tools & Languages:</div>
+							<div class="content">${tools}</div>
+						</li>
+					</ul>
+				</section>
+			</li>
+		</script>
+
+		<script type="text/template" id="social-template">
+			<li><a href="${link}" target="_blank">${name}</a></li>
+		</script>
+
+		<script type="text/javascript" src="js/jsonme.min.js"></script>
+		<script type="text/javascript">
+			snack.ready( function( ) {
+				window.app.loadData( );
+			} )
+		</script>
+	</body>
 </html>
 
-<!--
-<div id="hcard-Sander-de-Goeij" class="vcard">
- <a class="url fn n" href="http://sanderdegoeij.com">  <span class="given-name">Sander</span>
-  <span class="additional-name"></span>
-  <span class="family-name">de Goeij</span>
-</a>
- <div class="org">Ciber Netherlands</div>
- <a class="email" href="mailto:sander@sanderdegoeij.com">sander@sanderdegoeij.com</a>
- <div class="adr">
-  <div class="street-address">Prins Hendrikweg 74</div>
-  <span class="locality">Vleuten</span>
-, 
-  <span class="postal-code">3451 CP</span>
-
-  <span class="country-name">Netherlands</span>
-
- </div>
-<p style="font-size:smaller;">This <a href="http://microformats.org/wiki/hcard">hCard</a> created with the <a href="http://microformats.org/code/hcard/creator">hCard creator</a>.</p>
-</div>
--->
