@@ -4,6 +4,7 @@
 	"title" : "Senior Consultant",
 	"objective" : "To deliver outstanding, beautiful iOS and Android apps to the customer, focusing on user experience coupled with beautiful, easy to read code.",
 	"aboutme" : "Sander started his career at ING Bank Netherlands as a Java programmer on the middleware team, in 2000. During his career, he worked on a multitude of different systems, ranging from IBM WebSphere Application Server to the Brokat Twister middleware platform.<br /><br />Starting 2004, Sander began focusing on internet and intranet development, working for companies as Reed Business and TNT, implementing portals and websites using the latest standards and content management systems.<br /><br />In 2008, he joined a team of Ciber consultants to create the Malmberg Publishing Platform, a Ruby on Rails website, backed by Documentum and Microsoft Sharepoint, which has won international awards.<br /><br />Since 2013, Sander is focused on the mobile landscape, implementing several apps for large international companies such as Philips Lighting. Initially using the Titanium Mobile Framework, he quickly moved on to native iOS and Android apps, and in 2014 moved on to the Xamarin framework.<br /><br />Sander is known for his technical insight and quick decision making skills.",
+	"vitals" : "Male, 33 years old, married, 3 children, located in Vleuten, the Netherlands",
 	"social" : [
 		{
 			"link" : "http://www.linkedin.com/in/sanderdegoeij",
@@ -11,7 +12,7 @@
 		},
 		{
 			"link" : "https://github.com/sdegoeij/sdegoeij.github.com",
-			"name" : "this.source"
+			"name" : "[self source]"
 		}
 	],
 	"skills" : [
@@ -24,6 +25,7 @@
 		"Ruby",
 		"Ruby on Rails",
 		"Objective-C",
+		"MagicalRecord",
 		"Java",
 		"Grails",
 		"Javascript",
@@ -35,13 +37,33 @@
 		"JSON",
 		"Xamarin Framework",
 		"MVVMCross",
-		"ReactiveCocoa",
 		"Spring"
 	],
 	"experience" : [
 		{
+			"company" : "iBridge",
+			"link" : "https://itunes.apple.com/nl/app/t-point-planning/id575153249?l=en&mt=8",
+			"linkTitle" : "iTunes",
+			"title" : "Mobile Consultant",
+			"startDate" : "2014",
+			"endDate" : "Present",
+			"responsibilities" : "Phase 2 of the SkyPlan update: implement availability and push notifications in the SkyPlan app.",
+			"tools" : "C#, MVVMCross"
+		},
+		{
+			"company" : "iBridge",
+			"link" : "https://itunes.apple.com/nl/app/mijn-randstad/id575140377?l=en&mt=8",
+			"linkTitle" : "iTunes",
+			"title" : "Mobile Consultant",
+			"startDate" : "2014",
+			"endDate" : "Present",
+			"responsibilities" : "Phase 1 of the SkyPlan update: rewriting the Randstad SkyPlan app in Xamarin with a focus on performance and UX.",
+			"tools" : "C#, MVVMCross"
+		},
+		{
 			"company" : "Malmberg",
-			"link" : "http://www.malmberg.nl",
+			"link" : "https://itunes.apple.com/nl/app/ebook-pack/id540320293?l=en&mt=8",
+			"linkTitle" : "iTunes",
 			"title" : "Mobile Consultant",
 			"startDate" : "2014",
 			"endDate" : "Present",
@@ -50,7 +72,8 @@
 		},
 		{
 			"company" : "Stichting Bibliotheek.nl",
-			"link" : "http://www.bibliotheek.nl",
+			"link" : "https://itunes.apple.com/nl/app/bibliotheek/id779556105?l=en&mt=8",
+			"linkTitle" : "iTunes",
 			"title" : "Mobile Consultant",
 			"startDate" : "2014",
 			"endDate" : "Present",
@@ -59,7 +82,8 @@
 		},
 		{
 			"company" : "ANWB",
-			"link" : "http://www.anwb.nl",
+			"link" : "http://m.anwb.nl",
+			"linkTitle" : "m.anwb.nl",
 			"title" : "Frontend Consultant",
 			"startDate" : "2013",
 			"endDate" : "2014",
@@ -69,6 +93,7 @@
 		{
 			"company" : "Malmberg",
 			"link" : "http://www.malmberg.nl",
+			"linkTitle" : "Malmberg",
 			"title" : "Ruby on Rails Consultant",
 			"startDate" : "2013",
 			"endDate" : "2013",
@@ -78,6 +103,7 @@
 		{
 			"company" : "Philips Lighting",
 			"link" : "http://www.philips.nl",
+			"linkTitle" : "Philips",
 			"title" : "Senior Consultant",
 			"startDate" : "2012",
 			"endDate" : "2013",
@@ -86,7 +112,8 @@
 		},
 		{
 			"company" : "Philips Lighting",
-			"link" : "http://www.philips.nl",
+			"link" : "https://itunes.apple.com/nl/app/lightcollector/id575141043?l=en&mt=8",
+			"linkTitle" : "iTunes",
 			"title" : "Mobile Consultant",
 			"startDate" : "2012",
 			"endDate" : "2012",
@@ -95,7 +122,8 @@
 		},
 		{
 			"company" : "Malmberg",
-			"link" : "http://www.malmberg.nl",
+			"link" : "https://itunes.apple.com/nl/app/ebook-pack/id540320293?l=en&mt=8",
+			"linkTitle" : "iTunes",
 			"title" : "Mobile Consultant",
 			"startDate" : "2012",
 			"endDate" : "2012",
@@ -104,7 +132,8 @@
 		},
 		{
 			"company" : "Philips Lighting",
-			"link" : "http://www.philips.nl",
+			"link" : "https://play.google.com/store/apps/details?id=com.philips.li.hub",
+			"linkTitle" : "Google Play",
 			"title" : "Mobile Consultant",
 			"startDate" : "2012",
 			"endDate" : "2012",
@@ -113,7 +142,8 @@
 		},
 		{
 			"company" : "Tempo Team",
-			"link" : "http://www.tempo-team.be",
+			"link" : "https://itunes.apple.com/nl/app/t-point-planning/id575153249?l=en&mt=8",
+			"linkTitle" : "iTunes",
 			"title" : "Mobile Consultant",
 			"startDate" : "2012",
 			"endDate" : "2012",
@@ -123,6 +153,7 @@
 		{
 			"company" : "Malmberg",
 			"link" : "http://www.malmberg.nl",
+			"linkTitle" : "Malmberg",
 			"title" : "Mobile Consultant",
 			"startDate" : "2011",
 			"endDate" : "2012",
@@ -132,6 +163,7 @@
 		{
 			"company" : "Malmberg",
 			"link" : "http://www.malmberg.nl",
+			"linkTitle" : "Malmberg",
 			"title" : "Ruby on Rails Consultant",
 			"startDate" : "2008",
 			"endDate" : "2011",
@@ -141,6 +173,7 @@
 		{
 			"company" : "Philips",
 			"link" : "http://www.philips.nl",
+			"linkTitle" : "Philips",
 			"title" : "Java Consultant",
 			"startDate" : "2010",
 			"endDate" : "2011",
