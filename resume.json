@@ -16,15 +16,17 @@
 		}
 	],
 	"skills" : [
-		"Mobile development - native & Xamarin framework",
+		"Mobile development - native iOS, native Android & Xamarin framework",
 		"Ruby on Rails",
-		"Webdesign",
+		"Webdevelopment & design",
 		"Java"
 	],
 	"frameworks" : [
 		"Ruby",
 		"Ruby on Rails",
 		"Objective-C",
+		"Swift",
+		"ReactiveCocoa",
 		"MagicalRecord",
 		"Java",
 		"Grails",
@@ -41,12 +43,22 @@
 	],
 	"experience" : [
 		{
+			"company" : "Malmberg",
+			"link" : "https://itunes.apple.com/nl/app/ebook-pack/id540320293?l=en&mt=8",
+			"linkTitle" : "iTunes",
+			"title" : "Senior Mobile Consultant",
+			"startDate" : "2014",
+			"endDate" : "Present",
+			"responsibilities" : "Phase 2 of the eBook Pack update: implement PDF annotations and easy switching of books.",
+			"tools" : "Objective-C, RMSDK"
+		},
+		{
 			"company" : "iBridge",
 			"link" : "https://itunes.apple.com/nl/app/t-point-planning/id575153249?l=en&mt=8",
 			"linkTitle" : "iTunes",
 			"title" : "Mobile Consultant",
 			"startDate" : "2014",
-			"endDate" : "Present",
+			"endDate" : "2014",
 			"responsibilities" : "Phase 2 of the SkyPlan update: implement availability and push notifications in the SkyPlan app.",
 			"tools" : "C#, MVVMCross"
 		},
@@ -56,7 +68,7 @@
 			"linkTitle" : "iTunes",
 			"title" : "Mobile Consultant",
 			"startDate" : "2014",
-			"endDate" : "Present",
+			"endDate" : "2014",
 			"responsibilities" : "Phase 1 of the SkyPlan update: rewriting the Randstad SkyPlan app in Xamarin with a focus on performance and UX.",
 			"tools" : "C#, MVVMCross"
 		},
@@ -66,7 +78,7 @@
 			"linkTitle" : "iTunes",
 			"title" : "Mobile Consultant",
 			"startDate" : "2014",
-			"endDate" : "Present",
+			"endDate" : "2014",
 			"responsibilities" : "Completely rewrite the award-winning iOS & Android app 'Ebook Pack', focusing on stability and performance, and implementing the Adobe Reader Mobile SDK (RMSDK) to deliver a better reading and learning experience to students. Managing a subproject outsourced to India.",
 			"tools" : "Objective-C, RMSDK"
 		},
