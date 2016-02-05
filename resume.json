@@ -18,8 +18,9 @@
 	"skills" : [
 		"Mobile development - native iOS, native Android & Xamarin framework",
 		"Ruby on Rails",
-		"Webdevelopment & design",
-		"Java"
+		"Frontend development & design",
+		"Java",
+		"SCRUM"
 	],
 	"frameworks" : [
 		"Ruby",
@@ -42,6 +43,26 @@
 		"Spring"
 	],
 	"experience" : [
+		{
+			"company" : "Koninklijke Bibliotheek",
+			"link" : "https://itunes.apple.com/nl/app/bibliotheek/id779556105?l=en&mt=8",
+			"linkTitle" : "iTunes",
+			"title" : "Senior Mobile Consultant",
+			"startDate" : "2015",
+			"endDate" : "Present",
+			"responsibilities" : "Rewrite of the KB e-reader app using Swift, PSPDFKit and Readium, with a focus on supporting ePub3",
+			"tools" : "Swift, Readium, PSPDFKit"
+		},
+		{
+			"company" : "Ciber Netherlands",
+			"link" : "http://ciber.com",
+			"linkTitle" : "Website",
+			"title" : "Senior Mobile Consultant",
+			"startDate" : "2015",
+			"endDate" : "Present",
+			"responsibilities" : "Implementation of a whitelabel e-reader application on iOS using Readium and PSPDFKit",
+			"tools" : "Swift, Readium, PSPDFKit"
+		},
 		{
 			"company" : "Malmberg",
 			"link" : "https://itunes.apple.com/nl/app/ebook-pack/id540320293?l=en&mt=8",
