@@ -3,7 +3,7 @@
     "contact": "sander@sanderdegoeij.com",
     "title": "Allround developer",
     "objective": "To deliver outstanding, beautiful iOS and Android apps to the customer, focusing on user experience coupled with beautiful, easy to read code.",
-    "aboutme": "Sander started his career at ING Bank Netherlands as a Java programmer on the middleware team, in 2000. During his career, he worked on a multitude of different systems, ranging from IBM WebSphere Application Server to the Brokat Twister middleware platform.<br /><br />Starting 2004, Sander began focusing on internet and intranet development, working for companies as Reed Business and TNT, implementing portals and websites using the latest standards and content management systems.<br /><br />In 2008, he joined a team of Ciber consultants to create the Malmberg Publishing Platform, a Ruby on Rails website, backed by Documentum and Microsoft Sharepoint, which has won international awards.<br /><br />Since 2013, Sander is focused on the mobile landscape, implementing several apps for large international companies such as Philips Lighting. Initially using the Titanium Mobile Framework, he quickly moved on to native iOS and Android apps, and in 2014 moved on to the Xamarin framework.<br /><br />In 2016, Sander started working at One Shoe, a digital agency located in Utrecht, as allround develop focusing on PHP, Drupal and Laravel.<br /><br />Sander is known for his technical insight and quick decision making skills.",
+    "aboutme": "Sander started his career at ING Bank Netherlands as a Java programmer on the middleware team, in 2000. During his career, he worked on a multitude of different systems, ranging from IBM WebSphere Application Server to the Brokat Twister middleware platform.<br /><br />Starting 2004, Sander began focusing on internet and intranet development, working for companies as Reed Business and TNT, implementing portals and websites using the latest standards and content management systems.<br /><br />In 2008, he joined a team of Ciber consultants to create the Malmberg Publishing Platform, a Ruby on Rails website, backed by Documentum and Microsoft Sharepoint, which has won international awards.<br /><br />Since 2013, Sander is focused on the mobile landscape, implementing several apps for large international companies such as Philips Lighting. Initially using the Titanium Mobile Framework, he quickly moved on to native iOS and Android apps, and in 2014 moved on to the Xamarin framework.<br /><br />In 2016, Sander started working at <a href='https://oneshoe.nl' target='_blank'>One Shoe</a>, a digital agency located in Utrecht, as allround develop focusing on PHP, Drupal and Laravel.<br /><br />Sander is known for his technical insight and quick decision making skills.",
     "vitals": "Male, 37 years old, located in Utrecht, the Netherlands",
     "social": [
         {
@@ -135,7 +135,7 @@
             "linkTitle": "iTunes",
             "title": "Mobile Consultant",
             "startDate": "2014",
-            "endDate": "Present",
+            "endDate": "2016",
             "responsibilities": "Rewrite of the BNL e-reader app using RMSDK, focusing on user experience and stability.",
             "tools": "Objective-C, RMSDK"
         },
