@@ -1,9 +1,9 @@
 {
     "name": "Sander de Goeij",
-    "contact": "sander@sanderdegoeij.com",
-    "title": "Allround developer",
-    "objective": "To deliver outstanding, beautiful iOS and Android apps to the customer, focusing on user experience coupled with beautiful, easy to read code.",
-    "aboutme": "Sander started his career at ING Bank Netherlands as a Java programmer on the middleware team, in 2000. During his career, he worked on a multitude of different systems, ranging from IBM WebSphere Application Server to the Brokat Twister middleware platform.<br /><br />Starting 2004, Sander began focusing on internet and intranet development, working for companies as Reed Business and TNT, implementing portals and websites using the latest standards and content management systems.<br /><br />In 2008, he joined a team of Ciber consultants to create the Malmberg Publishing Platform, a Ruby on Rails website, backed by Documentum and Microsoft Sharepoint, which has won international awards.<br /><br />Since 2013, Sander is focused on the mobile landscape, implementing several apps for large international companies such as Philips Lighting. Initially using the Titanium Mobile Framework, he quickly moved on to native iOS and Android apps, and in 2014 moved on to the Xamarin framework.<br /><br />In 2016, Sander started working at <a href='https://oneshoe.nl' target='_blank'>One Shoe</a>, a digital agency located in Utrecht, as allround develop focusing on PHP, Drupal and Laravel.<br /><br />Sander is known for his technical insight and quick decision making skills.",
+    "contact": "E: sander@sanderdegoeij.com",
+    "title": "Tech Lead / Allround developer",
+    "objective": "To deliver outstanding and beautiful apps/websites to the customer, focusing on user experience coupled with smart, easy to read code.",
+    "aboutme": "Sander started his career at ING Bank Netherlands as a Java programmer on the middleware team, in 2000. During his career, he worked on a multitude of different systems, ranging from IBM WebSphere Application Server to the Brokat Twister middleware platform.<br /><br />Starting 2004, Sander began focusing on internet and intranet development, working for companies such as Reed Business and TNT, implementing portals and websites using the latest standards and content management systems.<br /><br />In 2008, he joined a team of Ciber consultants to create the Malmberg Publishing Platform, a Ruby on Rails website, backed by Documentum and Microsoft Sharepoint, which has won international awards.<br /><br />In 2013, Sander focused on the mobile landscape, implementing several apps for large international companies such as Philips Lighting. Initially using the Titanium Mobile Framework, he quickly moved on to native iOS and Android apps, and in 2014 moved on to the Xamarin framework.<br /><br />In 2016, Sander started working at <a href='https://oneshoe.nl' target='_blank'>One Shoe</a>, a digital agency located in Utrecht, as allround develop focusing on PHP, Drupal and Laravel. <br /><br />Sander is known for his technical insight and quick decision making skills.",
     "vitals": "Male, 37 years old, located in Utrecht, the Netherlands",
     "social": [
         {
@@ -12,31 +12,29 @@
         },
         {
             "link": "https://github.com/sdegoeij/sdegoeij.github.com",
-            "name": "[self source]"
+            "name": "$this->source()"
         }
     ],
     "skills": [
         "PHP",
         "Mobile development - native iOS, native Android & Xamarin framework",
-        "Ruby on Rails",
         "Frontend development & design",
-        "Java",
+        ".NET",
         "Python",
         "Shell scripting",
-        "SCRUM"
+        "SCRUM / Agile methodologies",
+        "Ruby on Rails",
+        "Java"
     ],
     "frameworks": [
         "Laravel",
+        "Node",
         "Drupal 7 & 8",
         "Django",
-        "Ruby",
         "Ruby on Rails",
         "Objective-C",
         "Swift",
-        "ReactiveCocoa",
-        "MagicalRecord",
         "Java",
-        "Grails",
         "Javascript",
         "C#",
         "mySQL",
@@ -44,20 +42,28 @@
         "postgresql",
         "XML",
         "JSON",
-        "Xamarin Framework",
-        "MVVMCross",
-        "Spring"
+        "Xamarin Framework"
     ],
     "experience": [
         {
+            "company": "Gemeente Rijswijk",
+            "link": "https://www.rijswijk.nl",
+            "linkTitle": "Website",
+            "title": "Tech Lead",
+            "startDate": "2019",
+            "endDate": "Present",
+            "responsibilities": "Implementation of the new 'digitaal loket' for Gemeente Rijswijk on Drupal 8.",
+            "tools": "Drupal 8, Codeception"
+        },
+        {
             "company": "Stichting kanker.nl",
-            "link": "https://www.kankernl.nl",
+            "link": "https://www.kanker.nl",
             "linkTitle": "Website",
             "title": "Tech Lead",
             "startDate": "2017",
             "endDate": "Present",
             "responsibilities": "Implementation of the new website for kanker.nl on Drupal 8.",
-            "tools": "Drupal, Codeception"
+            "tools": "Drupal 8, Codeception"
         },
         {
             "company": "Domein Roerende Zaken",
@@ -67,7 +73,7 @@
             "startDate": "2016",
             "endDate": "Present",
             "responsibilities": "Implementation of Beslagportaal on Drupal 7.",
-            "tools": "Drupal, Codeception"
+            "tools": "Drupal 7, Codeception"
         },
         {
             "company": "Koninklijke Bibliotheek",
@@ -98,26 +104,6 @@
             "endDate": "2016",
             "responsibilities": "Phase 2 of the eBook Pack update: implement PDF annotations and easy switching of books.",
             "tools": "Objective-C, RMSDK"
-        },
-        {
-            "company": "iBridge",
-            "link": "https://itunes.apple.com/nl/app/t-point-planning/id575153249?l=en&mt=8",
-            "linkTitle": "iTunes",
-            "title": "Mobile Consultant",
-            "startDate": "2014",
-            "endDate": "2014",
-            "responsibilities": "Phase 2 of the SkyPlan update: implement availability and push notifications in the SkyPlan app.",
-            "tools": "C#, MVVMCross"
-        },
-        {
-            "company": "iBridge",
-            "link": "https://itunes.apple.com/nl/app/mijn-randstad/id575140377?l=en&mt=8",
-            "linkTitle": "iTunes",
-            "title": "Mobile Consultant",
-            "startDate": "2014",
-            "endDate": "2014",
-            "responsibilities": "Phase 1 of the SkyPlan update: rewriting the Randstad SkyPlan app in Xamarin with a focus on performance and UX.",
-            "tools": "C#, MVVMCross"
         },
         {
             "company": "Malmberg",
@@ -157,7 +143,7 @@
             "startDate": "2013",
             "endDate": "2013",
             "responsibilities": "Updates of the Malmberg ePublishing Platform with a focus on usability and accessibility, using Ruby on Rails 3.",
-            "tools": "Ruby on Rails 3, HTML5, CSS3, Javascript, SCORM"
+            "tools": "Ruby on Rails 3 & 4, HTML5, CSS3, Javascript, SCORM"
         },
         {
             "company": "Philips Lighting",
@@ -168,76 +154,6 @@
             "endDate": "2013",
             "responsibilities": "Migration of Vendavo 7.1 to 8.1, including rewrite and cleanup of most of the Philips-specific Vendavo code. Standardisation of the Philips pricing procedures for EMEA and US. SAP Integration.",
             "tools": "Vendavo, Java, SAP, SCRUM"
-        },
-        {
-            "company": "Philips Lighting",
-            "link": "https://itunes.apple.com/nl/app/lightcollector/id575141043?l=en&mt=8",
-            "linkTitle": "iTunes",
-            "title": "Mobile Consultant",
-            "startDate": "2012",
-            "endDate": "2012",
-            "responsibilities": "LightCollector is a social community for Light Designers. Responsible for development of a Ruby on Rails website/API and a mobile application.",
-            "tools": "Ruby on Rails, Titanium Mobile, HTML5, CSS3, Javascript"
-        },
-        {
-            "company": "Malmberg",
-            "link": "https://itunes.apple.com/nl/app/ebook-pack/id540320293?l=en&mt=8",
-            "linkTitle": "iTunes",
-            "title": "Mobile Consultant",
-            "startDate": "2012",
-            "endDate": "2012",
-            "responsibilities": "Lead development of the eBook Pack. The eBook Pack is a combined product consisting of an iPad/Android application and a backend website. Through the use of activation codes, students and teachers are able to download and open their books on their tablet. The application supports annotations and additions through the use of tools such as a marker and sticky notes.",
-            "tools": "Ruby on Rails, Titanium Mobile, HTML5, CSS3, Javascript, PDF, GhostScript"
-        },
-        {
-            "company": "Philips Lighting",
-            "link": "https://play.google.com/store/apps/details?id=com.philips.li.hub",
-            "linkTitle": "Google Play",
-            "title": "Mobile Consultant",
-            "startDate": "2012",
-            "endDate": "2012",
-            "responsibilities": "Development of the LightingHub Android app. The Lighting Hub is an iPad application for Light Designers and Lighting Project Managers. The app contains the complete professional portfolio for Philips Lighting, project descriptions and photos, and is primarily meant as a source of inspiration and information.",
-            "tools": "Titanium Mobile, Javascript"
-        },
-        {
-            "company": "Tempo Team",
-            "link": "https://itunes.apple.com/nl/app/t-point-planning/id575153249?l=en&mt=8",
-            "linkTitle": "iTunes",
-            "title": "Mobile Consultant",
-            "startDate": "2012",
-            "endDate": "2012",
-            "responsibilities": "Development of the Tempo Team Android app. The Tempo Team mobile app (for Tempo Team Belgium) is an automatic notification app for employees of Tempo Team.",
-            "tools": "Titanium Mobile, Javascript"
-        },
-        {
-            "company": "Malmberg",
-            "link": "http://www.malmberg.nl",
-            "linkTitle": "Malmberg",
-            "title": "Mobile Consultant",
-            "startDate": "2011",
-            "endDate": "2012",
-            "responsibilities": "'The Experiment' was a prototype/POC native/HTML5 application designed to easily open and convert workbooks (PDF and SCORM) to a format that is usable on the Apple iPad.",
-            "tools": "XCode, Objective-C, HTML5, Javascript"
-        },
-        {
-            "company": "Malmberg",
-            "link": "http://www.malmberg.nl",
-            "linkTitle": "Malmberg",
-            "title": "Ruby on Rails Consultant",
-            "startDate": "2008",
-            "endDate": "2011",
-            "responsibilities": "Development of the Malmberg Publishing Platform (MPP). The MPP is an integral solution for the creation and publication of digital learning methods. Consisting of 2 Ruby on Rails applications, the frontend is used by teachers and students at schools across the Netherlands, while the backend is used by Malmberg for the management and publication of content to the frontend app.",
-            "tools": "Ruby on Rails, HTML, CSS, Javascript, SCORM"
-        },
-        {
-            "company": "Philips",
-            "link": "http://www.philips.nl",
-            "linkTitle": "Philips",
-            "title": "Java Consultant",
-            "startDate": "2010",
-            "endDate": "2011",
-            "responsibilities": "Development of Vendavo modules for SAP integration and pricing structure visualisation. Vendavo is a pricing optimization tool used by Philips to manage a portfolio of thousands of products and to quickly and easily analyse pricing changes and sales volume.",
-            "tools": "Vendavo, Java, XML, SAP"
         }
     ],
     "certifications": [
