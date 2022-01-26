@@ -1,0 +1,53 @@
+body {
+  -webkit-text-size-adjust: none;
+}
+
+div.first {
+  margin-top: 10px;
+}
+div.first span.right {
+  display: none;
+}
+
+section {
+  padding-bottom: 0.6rem;
+}
+section ul {
+  width: 90%;
+  overflow: hidden;
+  margin-left: 1em;
+}
+section .double li {
+  float: none;
+  width: 100%;
+}
+section .label {
+  text-align: left;
+  display: block;
+  text-overflow: ellipsis;
+}
+section .content {
+  display: block;
+  margin-left: 25px;
+}
+
+#pageNav {
+  display: none !important;
+}
+
+#top {
+  position: relative;
+}
+#top ul li {
+  width: 100%;
+  display: block;
+  border-bottom: 1px dashed #999;
+  border-right: none;
+  margin: 0px;
+  padding: 5px 0 5px 0;
+}
+#top ul li.last {
+  border-bottom: none;
+}
+
+/*# sourceMappingURL=small.css.map */

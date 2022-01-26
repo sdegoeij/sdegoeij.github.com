@@ -1,0 +1,232 @@
+{
+    "name": "Sander de Goeij",
+    "contact": "<strong>E:</strong> sander@sanderdegoeij.com<br /><strong>T:</strong> +31646351491",
+    "title": "Tech Lead / Allround developer",
+    "objective": "To deliver outstanding and beautiful apps/websites to the customer, focusing on user experience coupled with smart, easy to read code.",
+    "aboutme": "Sander started his career at ING Bank Netherlands as a Java programmer on the middleware team, in 2000. During his career, he worked on a multitude of different systems, ranging from IBM WebSphere Application Server to the Brokat Twister middleware platform.<br /><br />Starting 2004, Sander began focusing on internet and intranet development, working for companies such as Reed Business and TNT, implementing portals and websites using the latest standards and content management systems.<br /><br />In 2008, he joined a team of Ciber consultants to create the Malmberg Publishing Platform, a Ruby on Rails website, backed by Documentum and Microsoft Sharepoint, which has won international awards.<br /><br />In 2013, Sander focused on the mobile landscape, implementing several apps for large international companies such as Philips Lighting. Initially using the Titanium Mobile Framework, he quickly moved on to native iOS and Android apps, and in 2014 moved on to the Xamarin framework.<br /><br />In 2016, Sander started working at <a href='https://oneshoe.nl' target='_blank'>One Shoe</a>, a digital agency located in Utrecht, as allround develop focusing on PHP, Drupal and Laravel.<br /><br />In 2019, Sander moved on to <a href='https://huren.nl' target='_blank'>Huren.nl</a> as IT Tech Lead, leading the team working on the website Huren.nl and its internal tools.<br /><br />Sander is known for his technical insight and quick decision making skills.",
+    "vitals": "Male, 40 years old, located in Utrecht, the Netherlands.",
+    "social": [
+        {
+            "link": "http://www.linkedin.com/in/sanderdegoeij",
+            "name": "LinkedIn"
+        },
+        {
+            "link": "https://github.com/sdegoeij/sdegoeij.github.com",
+            "name": "$this->source"
+        }
+    ],
+    "skills": [
+        "PHP",
+        "React",
+        "iOS development", 
+        "Android development",
+        "Frontend development & design",
+        "ElasticSearch / Kibana",
+        ".NET (C#)",
+        "Python",
+        "Shell scripting (bash, zsh)",
+        "SCRUM / Agile methodologies",
+        "Ruby on Rails",
+        "Java"
+    ],
+    "frameworks": [
+        "Linux (Ubuntu, Debian, Arch)",
+        "Laravel",
+        "Symfony",
+        "NodeJS",
+        "Drupal 7 & 8",
+        "Django",
+        "Ruby on Rails",
+        "Objective-C",
+        "Swift",
+        "Java",
+        "Javascript",
+        "C#",
+        "mySQL",
+        "Microsoft SQLServer",
+        "postgresql",
+        "XML",
+        "JSON",
+        "Xamarin Framework"
+    ],
+    "experience": [
+        {
+            "company": "Huren.nl",
+            "link": "https://huren.nl",
+            "linkTitle": "Website",
+            "title": "Tech Lead",
+            "startDate": "2019",
+            "endDate": "Present",
+            "responsibilities": "IT team lead for the Huren.nl website and internal tooling.",
+            "tools": "Symfony, ElasticSearch, Kibana, AWS, Codeception"
+        },
+        {
+            "company": "Gemeente Rijswijk (for One Shoe B.V.)",
+            "link": "https://www.rijswijk.nl",
+            "linkTitle": "Website",
+            "title": "Tech Lead",
+            "startDate": "2019",
+            "endDate": "2019",
+            "responsibilities": "Implementation of the new 'digitaal loket' for Gemeente Rijswijk on Drupal 8.",
+            "tools": "Drupal 8, Codeception"
+        },
+        {
+            "company": "Stichting kanker.nl (for One Shoe B.V.)",
+            "link": "https://www.kanker.nl",
+            "linkTitle": "Website",
+            "title": "Tech Lead",
+            "startDate": "2017",
+            "endDate": "Present",
+            "responsibilities": "Implementation of the new website for kanker.nl on Drupal 8.",
+            "tools": "Drupal 8, Codeception"
+        },
+        {
+            "company": "Domein Roerende Zaken (for One Shoe B.V.)",
+            "link": "https://www.domeinenrz.nl",
+            "linkTitle": "Website",
+            "title": "Tech Lead",
+            "startDate": "2016",
+            "endDate": "Present",
+            "responsibilities": "Implementation of Beslagportaal on Drupal 7.",
+            "tools": "Drupal 7, Codeception"
+        },
+        {
+            "company": "Koninklijke Bibliotheek (for Ciber Netherlands B.V.)",
+            "link": "https://itunes.apple.com/nl/app/bibliotheek/id779556105?l=en&mt=8",
+            "linkTitle": "iTunes",
+            "title": "Senior Mobile Consultant",
+            "startDate": "2015",
+            "endDate": "2016",
+            "responsibilities": "Rewrite of the KB e-reader app using Swift, PSPDFKit and Readium, with a focus on supporting ePub3",
+            "tools": "Swift, Readium, PSPDFKit"
+        },
+        {
+            "company": "Ciber Netherlands",
+            "link": "http://ciber.com",
+            "linkTitle": "Website",
+            "title": "Senior Mobile Consultant",
+            "startDate": "2015",
+            "endDate": "2016",
+            "responsibilities": "Implementation of a whitelabel e-reader application on iOS using Readium and PSPDFKit",
+            "tools": "Swift, Readium, PSPDFKit"
+        },
+        {
+            "company": "Malmberg (for Ciber Netherlands B.V.)",
+            "link": "https://itunes.apple.com/nl/app/ebook-pack/id540320293?l=en&mt=8",
+            "linkTitle": "iTunes",
+            "title": "Senior Mobile Consultant",
+            "startDate": "2014",
+            "endDate": "2016",
+            "responsibilities": "Phase 2 of the eBook Pack update: implement PDF annotations and easy switching of books.",
+            "tools": "Objective-C, RMSDK"
+        },
+        {
+            "company": "Malmberg (for Ciber Netherlands B.V.)",
+            "link": "https://itunes.apple.com/nl/app/ebook-pack/id540320293?l=en&mt=8",
+            "linkTitle": "iTunes",
+            "title": "Mobile Consultant",
+            "startDate": "2014",
+            "endDate": "2014",
+            "responsibilities": "Completely rewrite the award-winning iOS & Android app 'Ebook Pack', focusing on stability and performance, and implementing the Adobe Reader Mobile SDK (RMSDK) to deliver a better reading and learning experience to students. Managing a subproject outsourced to India.",
+            "tools": "Objective-C, RMSDK"
+        },
+        {
+            "company": "Stichting Bibliotheek.nl (for Ciber Netherlands B.V.)",
+            "link": "https://itunes.apple.com/nl/app/bibliotheek/id779556105?l=en&mt=8",
+            "linkTitle": "iTunes",
+            "title": "Mobile Consultant",
+            "startDate": "2014",
+            "endDate": "2016",
+            "responsibilities": "Rewrite of the BNL e-reader app using RMSDK, focusing on user experience and stability.",
+            "tools": "Objective-C, RMSDK"
+        },
+        {
+            "company": "ANWB (for Ciber Netherlands B.V.)",
+            "link": "http://m.anwb.nl",
+            "linkTitle": "m.anwb.nl",
+            "title": "Frontend Consultant",
+            "startDate": "2013",
+            "endDate": "2014",
+            "responsibilities": "Development of modules for the ANWB mobile site, focusing on weather and traffic feeds, as well as the route planner.",
+            "tools": "Java, HTML5, CSS3, Javascript, Responsive Design"
+        },
+        {
+            "company": "Malmberg (for Ciber Netherlands B.V.)",
+            "link": "http://www.malmberg.nl",
+            "linkTitle": "Malmberg",
+            "title": "Ruby on Rails Consultant",
+            "startDate": "2013",
+            "endDate": "2013",
+            "responsibilities": "Updates of the Malmberg ePublishing Platform with a focus on usability and accessibility, using Ruby on Rails 3.",
+            "tools": "Ruby on Rails 3 & 4, HTML5, CSS3, Javascript, SCORM"
+        },
+        {
+            "company": "Philips Lighting (for Ciber Netherlands B.V.)",
+            "link": "http://www.philips.nl",
+            "linkTitle": "Philips",
+            "title": "Senior Consultant",
+            "startDate": "2012",
+            "endDate": "2013",
+            "responsibilities": "Migration of Vendavo 7.1 to 8.1, including rewrite and cleanup of most of the Philips-specific Vendavo code. Standardisation of the Philips pricing procedures for EMEA and US. SAP Integration.",
+            "tools": "Vendavo, Java, SAP, SCRUM"
+        }
+    ],
+    "certifications": [
+        {
+            "company": "Appcelerator",
+            "certificate": "Titanium Certified App Developer",
+            "certDate": "2012"
+        },
+        {
+            "company": "GX",
+            "certificate": "GX Certified WebManager developer",
+            "certDate": "2008"
+        }
+    ],
+    "training": [
+        {
+            "company": "Ciber",
+            "training": "Communication skills",
+            "year": "2011"
+        },
+        {
+            "company": "ING",
+            "training": "SQL relational databases",
+            "year": "2002"
+        },
+        {
+            "company": "ING",
+            "training": "RUP",
+            "year": "2002"
+        },
+        {
+            "company": "ING",
+            "training": "DSDM",
+            "year": "2002"
+        },
+        {
+            "company": "ING",
+            "training": "OO analysis and design",
+            "year": "2002"
+        },
+        {
+            "company": "ING",
+            "training": "Java programming, advanced",
+            "year": "2001"
+        }
+    ],
+    "education": [
+        {
+            "school": "Hogeschool van Utrecht",
+            "startDate": "1998",
+            "endDate": "2001",
+            "program": "Computer Sciences"
+        },
+        {
+            "school": "St. Gregorius College",
+            "startDate": "1993",
+            "endDate": "1998",
+            "program": "HAVO"
+        }
+    ]
+}

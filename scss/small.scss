@@ -1,0 +1,66 @@
+$darkgrey: #999;
+
+body {
+  -webkit-text-size-adjust: none;
+}
+
+div {
+  &.first {
+    margin-top: 10px;
+
+    span {
+      &.right {
+        display: none;
+      }
+    }
+  }
+}
+
+section {
+  padding-bottom: 0.6rem;
+
+  ul {
+    width: 90%;
+    overflow: hidden;
+    margin-left: 1em;
+  }
+
+  .double li {
+    float: none;
+    width: 100%;
+  }
+
+  .label {
+    text-align: left;
+    display: block;
+    text-overflow: ellipsis;
+  }
+
+  .content {
+    display: block;
+    margin-left: 25px;
+  }
+}
+
+#pageNav {
+  display: none !important;
+}
+
+#top {
+  position: relative;
+
+  ul {
+    li {
+      width: 100%;
+      display: block;
+      border-bottom: 1px dashed $darkgrey;
+      border-right: none;
+      margin: 0px;
+      padding: 5px 0 5px 0;
+
+      &.last {
+        border-bottom: none;
+      }
+    }
+  }
+}

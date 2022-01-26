@@ -1,0 +1,11 @@
+name: resume
+
+services:
+  appserver:
+    type: apache:2.4
+    webroot: .
+    ssl: true
+
+proxy:
+  appserver:
+    - resume.lndo.site
