@@ -1,7 +1,7 @@
 {
     "name": "Sander de Goeij",
-    "contact": "<strong>E:</strong> sander@sanderdegoeij.com<br /><strong>T:</strong> +31646351491",
-    "title": "Tech Lead / Allround developer",
+    "contact": "<strong>E:</strong> contact@sanderdegoeij.com<br /><strong>T:</strong> +31646351491",
+    "title": "Freelance Tech Lead / Fullstack developer",
     "objective": "To deliver outstanding and beautiful apps/websites to the customer, focusing on user experience coupled with smart, easy to read code.",
     "aboutme": "Sander started his career at ING Bank Netherlands as a Java programmer on the middleware team, in 2000. During his career, he worked on a multitude of different systems, ranging from IBM WebSphere Application Server to the Brokat Twister middleware platform.<br /><br />Starting 2004, Sander began focusing on internet and intranet development, working for companies such as Reed Business and TNT, implementing portals and websites using the latest standards and content management systems.<br /><br />In 2008, he joined a team of Ciber consultants to create the Malmberg Publishing Platform, a Ruby on Rails website, backed by Documentum and Microsoft Sharepoint, which has won international awards.<br /><br />In 2013, Sander focused on the mobile landscape, implementing several apps for large international companies such as Philips Lighting. Initially using the Titanium Mobile Framework, he quickly moved on to native iOS and Android apps, and in 2014 moved on to the Xamarin framework.<br /><br />In 2016, Sander started working at <a href='https://oneshoe.nl' target='_blank'>One Shoe</a>, a digital agency located in Utrecht, as allround develop focusing on PHP, Drupal and Laravel.<br /><br />In 2019, Sander moved on to <a href='https://huren.nl' target='_blank'>Huren.nl</a> as IT Tech Lead, leading the team working on the website Huren.nl and its internal tools.<br /><br />Sander is known for his technical insight and quick decision making skills.",
     "vitals": "Male, 40 years old, located in Utrecht, the Netherlands.",
@@ -16,24 +16,24 @@
         }
     ],
     "skills": [
-        "PHP",
-        "React",
+        "Tech Lead/Lead Developer",
+        "Systems & Architecture design",
         "iOS development", 
         "Android development",
         "Frontend development & design",
         "ElasticSearch / Kibana",
-        ".NET (C#)",
-        "Python",
         "Shell scripting (bash, zsh)",
         "SCRUM / Agile methodologies",
-        "Ruby on Rails",
-        "Java"
+        "Amazon AWS (EC2, S3, SES)",
+        "ElasticSearch & Kibana"
     ],
     "frameworks": [
-        "Linux (Ubuntu, Debian, Arch)",
+        "PHP",
+        "Python",
         "Laravel",
         "Symfony",
         "NodeJS",
+        "React",
         "Drupal 7 & 8",
         "Django",
         "Ruby on Rails",
@@ -47,7 +47,8 @@
         "postgresql",
         "XML",
         "JSON",
-        "Xamarin Framework"
+        "Xamarin Framework",
+        "Linux (Ubuntu, Pop!OS, Debian, Arch, CentOS)",
     ],
     "experience": [
         {
@@ -56,9 +57,9 @@
             "linkTitle": "Website",
             "title": "Tech Lead",
             "startDate": "2019",
-            "endDate": "Present",
+            "endDate": "2022",
             "responsibilities": "IT team lead for the Huren.nl website and internal tooling.",
-            "tools": "Symfony, ElasticSearch, Kibana, AWS, Codeception"
+            "tools": "Symfony, ElasticSearch, Kibana, Amazon AWS/EC2/S3/SES, Codeception"
         },
         {
             "company": "Gemeente Rijswijk (for One Shoe B.V.)",
@@ -76,7 +77,7 @@
             "linkTitle": "Website",
             "title": "Tech Lead",
             "startDate": "2017",
-            "endDate": "Present",
+            "endDate": "2019",
             "responsibilities": "Implementation of the new website for kanker.nl on Drupal 8.",
             "tools": "Drupal 8, Codeception"
         },
@@ -86,7 +87,7 @@
             "linkTitle": "Website",
             "title": "Tech Lead",
             "startDate": "2016",
-            "endDate": "Present",
+            "endDate": "2019",
             "responsibilities": "Implementation of Beslagportaal on Drupal 7.",
             "tools": "Drupal 7, Codeception"
         },
